@@ -1,13 +1,13 @@
-import * as layouts from '../components'
+import { Footer, NavBar } from "../components";
 
 function Home() {
   return (
     <>
-      <layouts.NavBar />
+      <NavBar />
       <main>
         <h1>Home</h1>
       </main>
-      <layouts.Footer />
+      <Footer />
     </>
   );
 }
