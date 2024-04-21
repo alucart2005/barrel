@@ -1,2 +1,3 @@
-export {NavBar} from './layouts/NavBar';
-export {Footer} from './layouts/Footer';
+export * as forms from './forms';
+export * as layouts from './layouts';
+export * as modals from './modals';

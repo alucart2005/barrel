@@ -1,13 +1,16 @@
-import * as layouts from '../components'
+import * as master from "../components";
+
+
 
 function Home() {
   return (
     <>
-      <layouts.NavBar />
+    <master.forms.Login/>
       <main>
         <h1>Home</h1>
       </main>
-      <layouts.Footer />
+    <master.modals.Info/>
+      <master.layouts.Footer/>
     </>
   );
 }
